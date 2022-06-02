@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WWK2VONfJWRBwV+o4gehgwj0ETqQNqfN8zXBbxS25rcvJ+yZovBh5GclIQ/+hoSDV/7w9MV0Ym/PeCPora3JyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\awsom\\Downloads\\unibot\\tec-vrc-bot\\tec-vrc-bot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\awsom\\.nuget\\packages\\jsonsubtypes\\1.8.0\\jsonsubtypes.1.8.0.nupkg.sha512",
+    "C:\\Users\\awsom\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\awsom\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\awsom\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\awsom\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\awsom\\.nuget\\packages\\vrchat.api\\1.7.1\\vrchat.api.1.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

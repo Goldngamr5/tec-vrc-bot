@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net4.7": {
       "JsonSubTypes/1.8.0": {
         "type": "package",
         "dependencies": {

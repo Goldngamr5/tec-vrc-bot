@@ -1,4 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
 using VRChat.API.Api;
@@ -12,6 +18,15 @@ namespace TECbot
 
         public static async Task Main(string[] args)
         {
+            var config = new ConfigurationBuilder().AddCommandLine(args).Build();
+            var host = new WebHostBuilder()
+              .UseKestrel()
+              .UseContentRoot(Directory.GetCurrentDirectory())
+              .UseConfiguration(config)
+              .UseIISIntegration()
+              .UseStartup<Startup>()
+              .Build();
+
             var root = Directory.GetCurrentDirectory();
             var dotenv = Path.Combine(root, ".env");
             DotEnv.Load(dotenv);
